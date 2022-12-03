@@ -172,7 +172,7 @@ figcaption {
 }  
 .container1 {
     justify-content: column;
-    margin-left: 20px;
+
 }
 .container2 {
     flex-direction: column;
@@ -203,9 +203,40 @@ figcaption {
 }
 }
 @media (max-width:600px) {
+
 .biography {
     width: 300px;
     padding: 10px;
 }  
+.foto_principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.foto_principal img {
+    max-width: 300px;
+    position: static;
+}
+.biography {
+    width: 320px;
+    padding: 10px;
+}
+nav li, nav a {
+    padding: 2px;
+    font-size: 13px;
+    left: 9px;
+}
+
+header {
+    display: flex;
+    margin: 0;
+}
+.menu {
+    padding: 0;
+}
+.container1 {
+    max-width: 320px;
+}
 
 }
